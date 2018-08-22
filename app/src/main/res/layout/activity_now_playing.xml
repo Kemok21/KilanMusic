@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/ViewGroup"
+    tools:context=".NowPlayingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_albums">
+
+        <TextView
+            android:id="@+id/main"
+            style="@style/Menu"
+            android:text="@string/main"/>
+
+        <View
+            style="@style/View"/>
+
+        <TextView
+            android:id="@+id/performers"
+            style="@style/Menu"
+            android:text="@string/performers"/>
+
+        <View
+            style="@style/View"/>
+
+        <TextView
+            android:id="@+id/albums"
+            style="@style/Menu"
+            android:text="@string/albums"/>
+
+        <View
+            style="@style/View"/>
+
+        <TextView
+            android:id="@+id/all_songs"
+            style="@style/Menu"
+            android:text="@string/all_songs"/>
+
+        <View
+            style="@style/View"/>
+
+        <TextView
+            android:id="@+id/now_playing"
+            style="@style/Menu"
+            android:text="@string/now_playing" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/zero"
+        android:layout_margin="@dimen/margin_sixteen"
+        android:layout_weight="1"
+        android:src="@drawable/playing" />
+
+    <TextView
+        android:id="@+id/timer_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/timer" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_height"
+        android:layout_margin="@dimen/view_margin"
+        android:background="@color/view_line_color" />
+
+    <TextView
+        android:id="@+id/title_track_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/view_margin"
+        android:text="@string/title_playing"
+        android:textStyle="italic"
+        android:textSize="@dimen/title_size_now_playing" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_sixteen">
+
+        <ImageView
+            android:id="@+id/beginning"
+            style="@style/SelectImage"
+            android:src="@drawable/beginning" />
+
+        <ImageView
+            android:id="@+id/play"
+            style="@style/SelectImage"
+            android:src="@drawable/play"/>
+
+        <ImageView
+            android:id="@+id/end"
+            style="@style/SelectImage"
+            android:src="@drawable/end" />
+
+    </LinearLayout>
+
+</LinearLayout>

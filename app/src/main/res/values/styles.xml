@@ -1,0 +1,64 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_dark_color</item>
+    </style>
+
+    <!-- Style for a category menu -->
+    <style name="CategoryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:drawablePadding">@dimen/margin_sixteen</item>
+    </style>
+
+    <!-- Style for a view group -->
+    <style name="ViewGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/background</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- Style for a select image -->
+    <style name="SelectImage">
+        <item name="android:layout_width">@dimen/zero</item>
+        <item name="android:layout_height">@dimen/height_select_image</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <!-- Style for a main text in list -->
+    <style name="MainTextInList">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">italic|bold</item>
+    </style>
+
+    <!-- Style for a text in list -->
+    <style name="TextInList" parent="MainTextInList">
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <!-- Style for the menu buttons -->
+    <style name="Menu" parent="SelectImage">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_menu</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/category_albums</item>
+    </style>
+
+    <style name="View">
+        <item name="android:layout_width">@dimen/view</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/background</item>
+    </style>
+
+
+</resources>

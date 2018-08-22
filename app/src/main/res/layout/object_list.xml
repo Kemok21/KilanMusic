@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/ViewGroup">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_albums">
+
+        <TextView
+            android:id="@+id/main"
+            style="@style/Menu"
+            android:text="@string/main"/>
+
+        <View
+            style="@style/View"/>
+
+        <TextView
+            android:id="@+id/performers"
+            style="@style/Menu"
+            android:text="@string/performers"/>
+
+        <View
+            style="@style/View"/>
+
+        <TextView
+            android:id="@+id/albums"
+            style="@style/Menu"
+            android:text="@string/albums"/>
+
+        <View
+            style="@style/View"/>
+
+        <TextView
+            android:id="@+id/all_songs"
+            style="@style/Menu"
+            android:text="@string/all_songs"/>
+
+        <View
+            style="@style/View"/>
+
+        <TextView
+            android:id="@+id/now_playing"
+            style="@style/Menu"
+            android:text="@string/now_playing" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/object_list"
+        style="@style/ViewGroup"></ListView>
+
+</LinearLayout>

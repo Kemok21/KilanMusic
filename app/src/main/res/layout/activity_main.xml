@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        style="@style/ViewGroup">
+
+        <TextView
+            android:id="@+id/performers"
+            style="@style/CategoryStyle"
+            android:background="@color/category_performer"
+            android:drawableLeft="@drawable/performer_main"
+            android:text="@string/performers" />
+
+        <TextView
+            android:id="@+id/albums"
+            style="@style/CategoryStyle"
+            android:background="@color/category_albums"
+            android:drawableLeft="@drawable/album_main"
+            android:text="@string/albums" />
+
+        <TextView
+            android:id="@+id/all_songs"
+            style="@style/CategoryStyle"
+            android:background="@color/category_all_tracks"
+            android:drawableLeft="@drawable/all_tracks"
+            android:text="@string/all_songs" />
+
+        <TextView
+            android:id="@+id/now_playing"
+            style="@style/CategoryStyle"
+            android:background="@color/category_now_playing"
+            android:drawableLeft="@drawable/play"
+            android:text="@string/now_playing" />
+    </LinearLayout>
+</ScrollView>

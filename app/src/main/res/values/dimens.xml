@@ -1,0 +1,15 @@
+<resources>
+    <dimen name="list_item_height">88dp</dimen>
+    <dimen name="margin_sixteen">16dp</dimen>
+    <dimen name="padding_sixteen">16dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="view">1dp</dimen>
+    <dimen name="view_height">5dp</dimen>
+    <dimen name="view_margin">8dp</dimen>
+    <dimen name="title_size_now_playing">16sp</dimen>
+    <dimen name="text_size_menu">14sp</dimen>
+    <dimen name="height_select_image">48dp</dimen>
+    <dimen name="image_size">52dp</dimen>
+    <dimen name="image_padding_top">4dp</dimen>
+    <dimen name="image_play_layout">32dp</dimen>
+</resources>
